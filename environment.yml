@@ -3,16 +3,5 @@ channels:
 - rdkit
 - conda-forge
 dependencies:
-- pip
-- numpy
-- ipython
-- jupyter
-- matplotlib
-- numpy
-- pandas
-- scipy
-- seaborn
-- tqdm
 - rdkit
-- scikit-learn
 
