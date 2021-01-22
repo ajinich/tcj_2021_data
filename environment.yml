@@ -1,7 +1,22 @@
 name: workshop_env
 channels:
-- rdkit
-- conda-forge
+   - rdkit
+   - defaults
+   - anaconda
+   - conda-forge
 dependencies:
-- rdkit
-
+   - rdkit
+   - python>=3.7
+   - numpy
+   - scipy
+   - pandas
+   - matplotlib
+   - seaborn
+   - jupyter
+   - ipykernel
+   - scikit-learn
+   - bokeh=2.1.1
+   - holoviews=1.13.3
+   - hvplot=0.5.2=py_0
+   - holoviz
+   - umap-learn=0.3.10
